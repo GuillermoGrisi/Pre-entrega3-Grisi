@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+header{
+    height: 25vh;
+    background-color: #3584c9;
+    opacity: 95%;
+}
+#menu_hamb{
+    width: 60px;
+    height: 60px;
+}
+#menu_hamb:hover{
+    background-color: #3e7ebe;
+}
+a{
+    text-decoration: none !important;
+ }
+ footer{
+    background-color: #3584c9;
+ }
+ #img_instagram{
+    width: 43px;
+    height: 43px;
+}
+#img_twitter{
+    width: 60px;
+    height: 60px;
+}
+#img_facebook{
+    width: 35px;
+    height: 35px;
+}
+/* body{
+    width: 100vw;
+    height: 100vh;
+} */
+/* header{
+    height: 14vw;
+    z-index: 1;
+} */
+/* #img_header{
+    height: 10%;
+    width: 10%;
+ } */
+/* ESTILOS HEADER
+
+header{
+    position: sticky;
+    background-color: rgb(112, 112, 151) ;
+    width: 100vw;
+    height: 14vh;
+    z-index: 1;
+    top: 0.2px;
+}
+#img_header{
+   height: 70%;
+   margin-left: 5vw;
+   margin-top: 1.5vh;
+   border-radius: 10px;
+   float: left;
+}
+h1{
+    display: inline-block;
+    width: 120px;
+    height: 75%;
+    background-color: rgb(112, 112, 151) ;
+    text-align: center;
+    margin: 0;
+    padding: 0.5vh 0 0 40px;
+    font-size: 1.5rem;
+}
+#logo {
+    width: 40vw;
+    height: 100%;
+    float: left;
+    background-color: rgb(112, 112, 151);
+    
+  }
+nav ul{
+    list-style-type: none;
+    background-color: rgb(112, 112, 151);
+    float: right;
+    margin-top: 8vh;
+    margin-right: 30px;
+}
+nav ul li{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    padding: 5px;
+    color: black;
+    background-color: rgb(217, 217, 241);
+    margin-left: -5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(217, 217, 241);
+}
+/* ESTILOS MAIN */
+/* main{
+    position: absolute;
+    width: 100vw;
+    height: 76vh;
+    background-color: aliceblue;
+}
+main h2{
+    font-size: 2rem;
+    margin: 10px;
+    background-color: aliceblue;
+}
+#section_destacados{
+    border: 1px solid black;
+    width: 70%;
+    height: 89%;
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    background-color: aliceblue;
+}
+aside h2{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: gainsboro;
+    margin: 0;
+}
+aside{
+   width: 25%; 
+   height: 89%;
+   border: 1px solid black;
+   display: inline-block;
+   position: absolute;
+   right: 10px;
+   background-color:aliceblue;
+}
+.article_destacados{
+    position: relative;
+    width: 47%;
+    height: 46%;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 1% 1% 1% 1.3%;
+    background-color: gainsboro;
+}
+.article_paquetes{
+    width: 95%;
+    height: 44%;
+    border: 1px solid black;
+    margin: 2%;
+    background-color: gainsboro;
+}
+.article_destacados h3{
+    height: 15%;
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: center;
+}
+.article_paquetes h3{
+    font-size: 1.2rem;
+    margin: 0;
+    text-align: center;
+}
+.fotos_dest{
+    position: absolute;
+    width: 50%;
+    height: 85%;
+    margin: 0;
+}
+.descripcion_destacados{
+    position: absolute;
+    width: 46%;
+    height: 84.5%;
+    margin: 0 2%;
+    left: 50%;
+    background-color: gainsboro;
+}
+.fotos_paq{
+    width: 95%;
+    height: 65%;
+    margin-left: 2.5%;
+}
+.descripcion_paq{
+    width: 95%;
+    height: 20%;
+    text-align: justify;
+    margin: auto;
+} */
+/* ESTILOS FOOTER */
+/* footer{
+    width: 100vw;
+    height: 10vh;
+    position: absolute;
+    background-color: rgb(112, 112, 151) ; 
+    bottom: 0;
+}
+#logo_footer{
+    display: inline-block;
+    width: 40vw;
+    height: 100%;
+    background-color: rgb(112, 112, 151)
+}
+#img_footer{
+        display: inline;
+        height: 70%;
+        margin-left: 1vw;
+        margin-top: 1.5vh;
+        border-radius: 10px;
+        float: left;
+}
+#logo_footer article{
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    background-color: rgb(112, 112, 151)
+}
+footer section article h4{
+    background-color: rgb(112, 112, 151);
+    margin: 1vh 0 0 10px;
+   
+}
+footer section article p{
+    background-color: rgb(112, 112, 151);
+    margin: 0 0 0 10px;
+    
+}
+#redes_sociales{
+    display: inline;
+    width: 20vw;
+    height: 90%;
+    background-color: rgb(112, 112, 151);
+    float: right;
+}
+#redes_sociales h3{
+    margin: 1.3vh 0 0 0;
+    width: 70%;
+    background-color: rgb(112, 112, 151);
+}
+#redes{
+    width: 50%;
+    height: 50%;  
+} */
+/* ***************ESTILOS MAIN PAQUETES**************************** */
+/* #section_paquetes{
+    border: 1px solid black;
+    width: 98%;
+    height: 89%;
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    background-color: aliceblue;
+}
+.paquetes{
+    position: relative;
+    width: 31%;
+    height: 44%;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 1% 1% 1% 1%;
+    background-color: gainsboro;
+}
+.paquetes h3{
+    padding-left: 10px;
+}
+.paquetes_desc{
+    position: absolute;
+    width: 46%;
+    height: 84.5%;
+    margin: 0 2%;
+    left: 50%;
+    background-color: gainsboro;
+} */
+/* ***************ESTILOS MAIN VUELOS**************************** */
+/* #formulario_vuelos{
+    width: 97%;
+    height: 90%;
+    margin: 5% 2% 5% 6%;
+}
+#section_buscar_vuelos{
+    border: 1px solid black;
+    width: 60%;
+    height: 80%;
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    background-color: aliceblue;
+}
+#aside_buscar_vuelos{
+    width: 35%; 
+   height: 80%;
+   border: none;
+   background-image: url(../assets/images/rio.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#ciudad_origen{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#ciudad_destino{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#contenedor_fechas_vuelo{
+    width: 100%;
+    margin-bottom: 30px;
+}
+#contenedor_partidas{
+    display: inline-block;
+    width: 49.5%;
+}
+#fecha_partida{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+}
+#contenedor_regresos{
+    display: inline-block;
+    width: 49.5%;
+}
+#contenedor_regresos label{
+    margin-left:10%;
+}
+#fecha_regreso{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+fieldset{
+    width: 90%;
+    height: 100px;
+    background-color: rgba(112, 112, 151, 0.37);
+    border-radius: 5px;
+    margin-bottom: 40px;
+    padding: 4% 0 0 20%;
+}
+select{
+    width: 15%;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 80px;
+}
+#boton_buscar{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(115, 198, 115);
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.276);
+    margin-left: 75%;
+} */
+/* ******************************ESTILOS MAIN BLOG************************************* */
+/* #section_blog{
+    border: 1px solid black;
+    width: 98.5%;
+    height: 89%;
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    background-color: aliceblue;
+}
+.article_blog{
+    position: relative;
+    width: 97.5%;
+    height: 29%;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 1% 1% 1% 1.3%;
+    background-color: gainsboro;
+}
+.article_blog h3{
+    padding-left: 10px;
+}
+.descripcion_blog{
+    position: absolute;
+    width: 67%;
+    height: 80%;
+    margin: 0 2%;
+    left: 30%;
+    background-color: gainsboro;
+}
+.fotos_blog{
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    margin: 0;
+} */
+/* ******************************ESTILOS MAIN CONTACTO************************************* */
+/* #form_contacto{
+    width: 97%;
+    height: 90%;
+    margin: 5% 2% 5% 6%;
+}
+#section_contacto{
+    border: 1px solid black;
+    width: 60%;
+    height: 80%;
+    display: inline-block;
+    position: absolute;
+    left: 20%;
+    background-color: aliceblue;
+}
+#datos_personales{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#contenedor_nombre{
+    display: inline-block;
+    width: 47%;
+}
+#nombre{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.568);
+}
+#contenedor_apellido{
+    display: inline-block;
+    width: 47%;
+}
+#apellido{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.568);
+}
+#email{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-color: rgba(0, 0, 0, 0.568);
+}
+#telefono{
+    width: 45%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-color: rgba(0, 0, 0, 0.568);
+}
+textarea{
+    width: 90%;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    padding: 0 5px;
+    border-color: rgba(0, 0, 0, 0.568);
+}
+#boton_enviar{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(115, 198, 115);
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.276);
+    margin-left: 75%;
+} */ 
