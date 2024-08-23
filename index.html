@@ -14,24 +14,24 @@
   </head>
   <body>
     <header
-      class="container-fluid ms-0 p-0 sticky-top">
-      <div class="row h-100 m-0">
+      class="container-fluid">
+      <div class="row">
         <section
-          class="col-lg-12 col-12 d-flex justify-content-beetween align-items-center flex-row p-0 h-100"
+          class="col-12"
           id="logo"
         >
           <img
-            class="h-50 m-2 w-lg-50 h-lg-75 m-lg-3 ps-4"
+            class="w-lg-50 h-lg-75 m-lg-3"
             id="img_header"
             src="./assets/images/logo.png"
             alt="Brujula-logo de la empresa"
           />
-          <h1 class="w-50 w-lg-50 mt-lg-4 text-light">Viajes Grupo 1</h1>
-          <div class="col-3 h-75 d-flex justify-content-end align-items-end d-md-none d-inlineblock">
-          <nav class="dropdown p-0">
+          <h1 class="w-lg-50 mt-lg-4">Viajes Grupo 1</h1>
+          <div class="col-3 d-md-none">
+          <nav class="dropdown">
             <button
               id="boton"
-              class="btn p-0"
+              class="btn"
               type="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
@@ -42,7 +42,7 @@
                 alt="menu-hamburguesa"
               />
             </button>
-            <ul class="dropdown-menu bg-primary-subtle border-black">
+            <ul class="dropdown-menu">
               <li>
                 <a class="dropdown-item" href="./index.html" type="button"
                   >Home</a
@@ -81,37 +81,37 @@
           </nav>
         </div>
           <nav
-            class="d-md-flex d-none justify-content-around align-items-end w-100 h-100 p-0"
+            class="d-none d-md-flex justify-content-lg-end"
           >
-            <ul class="list-group list-group-horizontal p-0 m-4 w-50">
+            <ul class="list-group list-group-horizontal">
               <li
-                class="list-group-item list-group-item-action list-group-item-primary border border-black ms-1 p-1 text-center hover-nav"
+                class="list-group-item list-group-item-action list-group-item-primary hover-boton"
               >
                 <a class="text-secondary-emphasis" href="./index.html">Home</a>
               </li>
               <li
-                class="list-group-item list-group-item-action list-group-item-primary border border-black ms-1 p-1 text-center"
+                class="list-group-item list-group-item-action list-group-item-primary hover-boton"
               >
                 <a class="text-secondary-emphasis" href="./pages/paquetes.html"
                   >Paquetes</a
                 >
               </li>
               <li
-                class="list-group-item list-group-item-action list-group-item-primary border border-black ms-1 p-1 text-center"
+                class="list-group-item list-group-item-action list-group-item-primary hover-boton"
               >
                 <a class="text-secondary-emphasis" href="./pages/vuelos.html"
                   >Vuelos</a
                 >
               </li>
               <li
-                class="list-group-item list-group-item-action list-group-item-primary border border-black ms-1 p-1 text-center"
+                class="list-group-item list-group-item-action list-group-item-primary hover-boton"
               >
                 <a class="text-secondary-emphasis" href="./pages/blog.html"
                   >Blog</a
                 >
               </li>
               <li
-                class="list-group-item list-group-item-action list-group-item-primary border border-black ms-1 p-1"
+                class="list-group-item list-group-item-action list-group-item-primary hover-boton"
               >
                 <a class="text-secondary-emphasis" href="./pages/contacto.html"
                   >Contacto</a
@@ -123,101 +123,135 @@
       </div>
     </header>
     <main class="container-fluid mt-4">
-        <h2 class="p-0 ms-3">Destacados</h2>
+        <div class="row">
+          <h2 class="col-9 p-0 ms-3 ms-md-5">Destacados</h2>
+          <h3 class="d-none d-lg-block col-2 text-center">Paquetes</h3>
+        </div>
         <div class="row d-flex justify-content-center justify-content-md-around p-2 p-sm-1">
-        <section class="col-lg-8 col-sm-11 border border-black bg-info-subtle">
-          <div class="row d-flex justify-content-evenly h-100">
-          <article class="container col-5 border border-black p-0 bg-secondary-subtle m-2">
-            <div class="row h-100 p-1 m-0">
-            <h3 class="bg-secondary text-light">Europa</h3>  
+        <section class="col-lg-8 col-sm-11">
+          <div class="row d-flex h-100">
+          <article class="container col-6 col-md-4 bg-secondary-subtle p-1">
+            <div class="row h-100 m-0">
+            <h3 class="bg-secondary text-light m-0 h-25">Paris</h3>  
             <img
-              class="col-6 w-50 pe-1 ps-0 hover-grow"
+              class="w-100 h-75 p-0"
               src="./assets/images/torreeiffel.webp"
               alt="Imagen Torre Eiffel"
             />
-            <p class="col-5 w-50 p-0 m-0">
+            <!-- <p class=" w-100 p-0 m-0">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Temporibus voluptatibus, tempore, nam ipsam pariatur similique
               vero laboriosam laudantium debitis dolores
-            </p></div>
+            </p> --></div>
           </article>
-          <article class="container col-5 border border-black p-0 bg-secondary-subtle m-2">
-            <div class="row h-100 p-1 m-0">
-            <h3 class="bg-secondary text-light">Caribe</h3>
+          <article class="container col-6 col-md-4 bg-secondary-subtle p-1">
+            <div class="row h-100 p-0 m-0">
+            <h3 class="bg-secondary text-light m-0 h-25">México</h3>
             <img
-              class="col-6 w-50 pe-1 ps-0"
+              class="w-100 h-75 p-0"
               src="./assets/images/caribe.webp"
               alt="Imagen playa en el Caribe"
             />
-            <p class="col-5 w-50 p-0 m-0">
+            <!-- <p class="col-5 w-50 p-0 m-0">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Temporibus voluptatibus, tempore, nam ipsam pariatur similique
               vero laboriosam laudantium debitis dolores
-            </p></div>
+            </p> --></div>
           </article>
-          <article class="container col-5 border border-black p-0 bg-secondary-subtle m-2">
-            <div class="row h-100 p-1 m-0">
-            <h3 class="bg-secondary text-light">Medio Oriente</h3>
+          <article class="container col-6 col-md-4 bg-secondary-subtle p-1">
+            <div class="row h-100 p-0 m-0">
+            <h3 class="bg-secondary text-light m-0 h-25">Medio Oriente</h3>
             <img
-              class="col-6 w-50 pe-1 ps-0"
+              class="w-100 h-75 p-0"
               src="./assets/images/medio_oriente.webp"
               alt="Imagen de Medio Oriente"
             />
-            <p class="col-5 w-50 p-0 m-0">
+           <!--  <p class="col-5 w-50 p-0 m-0">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Temporibus voluptatibus, tempore, nam ipsam pariatur similique
               vero laboriosam laudantium debitis dolores
-            </p></div>
+            </p> --></div>
           </article>
-          <article class="container col-5 border border-black p-0 bg-secondary-subtle m-2">
-            <div class="row h-100 p-1 m-0">
-            <h3 class="bg-secondary text-light">América</h3>
+          <article class="container col-6 col-md-4 bg-secondary-subtle p-1">
+            <div class="row h-100 p-0 m-0">
+            <h3 class="bg-secondary text-light m-0 h-25">Machu Pichu</h3>
             <img
-              class="col-6 w-50 pe-1 ps-0"
+              class="w-100 h-75 p-0"
               src="./assets/images/america.webp"
               alt="Imagen de Machu Pichu"
             />
-            <p class="col-5 w-50 p-0 m-0">
+            <!-- <p class="col-5 w-50 p-0 m-0">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Temporibus voluptatibus, tempore, nam ipsam pariatur similique
               vero laboriosam laudantium debitis dolores
-            </p></div>
+            </p> --></div>
+          </article>
+          <article class="container col-6 col-md-4 bg-secondary-subtle p-1">
+            <div class="row h-100 p-0 m-0">
+            <h3 class="bg-secondary text-light m-0 h-25">Nueva York</h3>
+            <img
+              class="w-100 h-75 p-0"
+              src="./assets/images/nueva-york.webp"
+              alt="Imagen de Nueva York"
+            />
+            <!-- <p class="col-5 w-50 p-0 m-0">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Temporibus voluptatibus, tempore, nam ipsam pariatur similique
+              vero laboriosam laudantium debitis dolores
+            </p> --></div>
+          </article>
+          <article class="container col-6 col-md-4 bg-secondary-subtle p-1">
+            <div class="row h-100 p-0 m-0">
+            <h3 class="bg-secondary text-light m-0 h-25">Roma</h3>
+            <img
+              class="w-100 h-75 p-0"
+              src="./assets/images/roma.webp"
+              alt="Imagen de Roma"
+            />
+            <!-- <p class="col-5 w-50 p-0 m-0">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Temporibus voluptatibus, tempore, nam ipsam pariatur similique
+              vero laboriosam laudantium debitis dolores
+            </p> --></div>
           </article>
           </div>
         </section>
-        <aside class="col-3 d-lg-flex d-none flex-column justify-content-around p-0 m-0 border border-black bg-info-subtle">
-          <h2 class="text-center">Paquetes</h2>
-          <article class="border border-black m-1">
-            <div class="container-fluid p-0 d-flex flex-column align-items-center bg-secondary-subtle">
-                <div class="row h-100 p-1 m-0">
-            <h3 class="bg-secondary text-light text-center p-0">Temporada baja</h3>
+        <aside class="container-fluid col-3 d-lg-flex d-none flex-column p-0 m-0">
+          <div class="row">
+          <!-- <h2 class="text-center">Paquetes</h2> -->
+          <article class="p-1 d-flex flex-column bg-secondary-subtle">
+            <!-- <div class="p-1 d-flex flex-column align-items-center bg-secondary-subtle"> -->
+                <!-- <div class="row h-100 p-0 m-0"> -->
+            <h3 class="bg-secondary text-light text-center m-0 p-0">Temporada baja</h3>
             <img
-              class="border border-black p-0"
+              class="p-0"
               src="./assets/images/temp_baja.webp"
               alt="Imagen de un lago y mantañas nevadas"
             />
-            <p class="m-0 p-1">
+           <!--  <p class="m-0 p-1">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas
-            </p>
-            </div>
-          </div>
+            </p> -->
+            <!-- </div> -->
+         <!--  </div> -->
           </article>
-          <article class="border border-black m-1">
-            <div class="p-0 d-flex flex-column bg-secondary-subtle">
-                <div class="row h-100 p-1 m-0">
-            <h3 class="bg-secondary text-light text-center p-0">Temporada alta</h3>
+          <article class="p-1 d-flex flex-column bg-secondary-subtle">
+            <!-- <div class="p-1 d-flex flex-column bg-secondary-subtle"> -->
+                <!-- <div class="row h-100 p-0 m-0"> -->
+            <h3 class="bg-secondary text-light text-center m-0 p-0">Temporada alta</h3>
             <img
-              class="border border-black p-0"
+              class="p-0"
               src="./assets/images/temp_alta.webp"
               alt="Imagen de playa"
             />
-            <p class="m-0 p-1">
+            <!-- <p class="m-0 p-1">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas
-            </p>
-            </div>
-        </div>
+            </p> -->
+            <!-- </div> -->
+        <!-- </div> -->
           </article>
+          
         </div>
+      </div>
         </aside>
       </div>
     </main>
@@ -245,19 +279,19 @@
           <div class="d-flex justify-content-center align-items-center">
             <img
               id="img_instagram"
-              class=""
+              class="hover-boton"
               src="./assets/images/instagram.webp"
               alt="Logo de Instagram"
             />
             <img
               id="img_twitter"
-              class=""
+              class="hover-boton"
               src="./assets/images/twitter.svg"
               alt="Logo de X"
             />
             <img
               id="img_facebook"
-              class="border border-ligth rounded-5"
+              class="border border-ligth rounded-5 hover-boton"
               src="./assets/images/facebook.webp"
               alt="Logo de Facebook"
             />
