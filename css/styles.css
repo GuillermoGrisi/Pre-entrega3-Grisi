@@ -86,54 +86,94 @@ Header .row section nav ul li.list-group-item.hover-boton:hover {
   transition: transform 0.5s ease;
 }
 
-#img_instagram {
+footer {
+  margin: 0;
+  margin-top: 5rem;
+  background-color: #3e7ebe;
+}
+footer div.row {
+  display: flex;
+  justify-content: space-between;
+}
+footer div.row section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  align-items: start;
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+footer div.row section article {
+  color: #FBFBFB;
+  margin-left: 2rem;
+}
+footer div.row section article h4 {
+  padding: 0;
+  margin-top: 0.5rem;
+}
+footer div.row section article p {
+  padding: 0;
+  margin: 0;
+}
+footer div.row section #img_footer {
+  width: 25%;
+  height: 50%;
+  margin: 2rem;
+  margin-bottom: 0;
+}
+footer div.row section.col-5 {
+  width: 35%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer div.row section.col-5 h4 {
+  text-align: center;
+  margin: 0;
+  color: #FBFBFB;
+}
+footer div.row section.col-5 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer div.row section.col-5 div #img_instagram {
   width: 43px;
   height: 43px;
+  margin: 0;
 }
-
-#img_twitter {
+footer div.row section.col-5 div #img_instagram.hover-boton:hover {
+  transform: scaleY(1.2);
+  transition: transform 0.5s ease;
+}
+footer div.row section.col-5 div #img_twitter {
   width: 60px;
   height: 60px;
+  margin: 0;
 }
-
-#img_facebook {
+footer div.row section.col-5 div #img_twitter.hover-boton:hover {
+  transform: scaleY(1.2);
+  transition: transform 0.5s ease;
+}
+footer div.row section.col-5 div #img_facebook {
   width: 35px;
   height: 35px;
+  border: #FBFBFB 1px solid;
+  border-radius: 5rem;
+  margin: 0;
+}
+footer div.row section.col-5 div #img_facebook.hover-boton:hover {
+  transform: scaleY(1.2);
+  transition: transform 0.5s ease;
 }
 
-/* #menu_hamb {
-    width: 60px;
-    height: 60px;
-  }
-
-  footer {
-    background-color: #3584c9;
-  }
-
-  #img_instagram {
-    width: 43px;
-    height: 43px;
-  }
-
-  #img_twitter {
-    width: 60px;
-    height: 60px;
-  }
-
-  #img_facebook {
-    width: 35px;
-    height: 35px;
-  }
-
-  .hover-boton:hover {
-    transform: scaleY(1.2);
-    transition: transform 0.5s ease;
-  }
-
-  .hover-paquetes:hover {
-    transform: scaleY(1.1);
-    transition: transform 0.5s ease;
-  } 
-    -webkit-text-stroke: 3px black;*/
+/* 
+ .hover-paquetes:hover {
+   transform: scaleY(1.1);
+   transition: transform 0.5s ease;
+ } 
+   -webkit-text-stroke: 3px black; */
 
 /*# sourceMappingURL=styles.css.map */

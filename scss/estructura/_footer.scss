@@ -1,0 +1,85 @@
+footer{
+    margin: 0;
+    margin-top: 5rem;
+    background-color: $bg-header-footer;
+    div.row{
+        display: flex;
+        justify-content: space-between;
+        section{
+            display: flex;
+            justify-content: center;
+            flex-direction: column-reverse;
+            align-items: start;
+            padding: 0;
+            margin-bottom: 0.5rem;
+            article{
+                color: $color-texto-claro;
+                margin-left: 2rem;
+                h4{
+                    padding: 0;
+                    margin-top: 0.5rem;
+                }
+                p{
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+            #img_footer{
+                width: 25%;
+                height: 50%;
+                margin: 2rem;
+                margin-bottom: 0;
+            }
+        }
+        section.col-5{
+            width: 35%;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h4{
+                text-align: center;
+                margin: 0;
+                color: $color-texto-claro;
+            }
+            div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                #img_instagram{
+                    width: 43px;
+                    height: 43px;
+                    margin: 0;
+                    
+                    &.hover-boton:hover {
+                    transform: scaleY(1.2);
+                    transition: transform 0.5s ease;
+                  }
+                }
+                #img_twitter{
+                    width: 60px;
+                    height: 60px;
+                    margin: 0;
+                   
+                    &.hover-boton:hover {
+                    transform: scaleY(1.2);
+                    transition: transform 0.5s ease;
+                  }
+                }
+                #img_facebook{
+                    width: 35px;
+                    height: 35px;
+                    border: $color-texto-claro 1px solid;
+                    border-radius: 5rem;
+                    margin: 0;
+
+                    &.hover-boton:hover {
+                    transform: scaleY(1.2);
+                    transition: transform 0.5s ease;
+                  }
+                }
+            }
+        }
+    }
+}
