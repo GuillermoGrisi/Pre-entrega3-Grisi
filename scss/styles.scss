@@ -1,10 +1,8 @@
 @import "./utilidades/variables";
 @import "./base/reset";
 @import "./utilidades/mixin";
-@import "./estructura/header";
-@import "./estructura/main";
-@import "./estructura/main-paquetes";
-@import "./estructura/main-vuelos";
-@import "./estructura/main-blog";
-@import "./estructura/main-contacto";
-@import "./estructura/footer";
+@import "./pages/index";
+@import "./pages/paquetes";
+@import "./pages/vuelos";
+@import "./pages/blog";
+@import "./pages/contacto";
