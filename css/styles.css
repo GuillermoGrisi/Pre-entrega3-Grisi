@@ -5,7 +5,6 @@
   font-family: cursive;
 }
 
-/* @import "./utilidades/extends"; */
 Header {
   background-color: #3e7ebe;
   margin: 0;
@@ -85,228 +84,727 @@ Header .row section nav ul li.list-group-item.hover-boton:hover {
   transition: transform 0.5s ease;
 }
 
-main {
+main#main-index {
+  width: 100%;
   margin-top: 3rem;
   padding: 0;
 }
-main div.row h2 {
-  padding: 0;
-  margin-left: 0rem;
+main#main-index div.row {
+  width: 100%;
 }
-main div.row h3.d-none .d-lg-block .col-3 {
+main#main-index div.row h2 {
+  padding: 0;
+  margin-left: 0 !important;
+}
+main#main-index div.row h3.d-none .d-lg-block .col-3 {
   text-align: center;
 }
-main div.row {
+main#main-index div.row {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 0;
+}
+main#main-index div.row section {
+  padding: 0.1rem;
+}
+main#main-index div.row section div.row {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
-  padding: 0;
+  padding: 0 !important;
 }
-main div.row section div.row {
-  height: 100%;
-  display: flex;
-}
-main div.row section div.row article {
-  padding: 0.2rem;
+main#main-index div.row section div.row article {
+  padding: 0.1rem;
   background-color: gainsboro;
 }
-main div.row section div.row article div {
+main#main-index div.row section div.row article div {
   height: 100%;
   margin: 0;
 }
-main div.row section div.row article h3 {
-  background-color: gray;
+main#main-index div.row section div.row article h3 {
+  background-color: #6c757d;
   color: #FBFBFB;
   margin: 0;
+  padding: 0 !important;
   text-align: center;
   height: 13%;
 }
-main div.row section div.row article img {
+main#main-index div.row section div.row article img {
   width: 100%;
   height: 87%;
-  padding: 0;
+  padding: 0 !important;
 }
-main div.row section div.row article:hover {
+main#main-index div.row section div.row article:hover {
   transform: rotateY(180deg);
   transition: transform 1s ease-in-out;
 }
-main div.row section div.row article {
-  padding: 0.2rem;
+main#main-index div.row section div.row article {
+  padding: 0.1rem;
   background-color: gainsboro;
 }
-main div.row section div.row article div {
+main#main-index div.row section div.row article div {
   height: 100%;
   margin: 0;
 }
-main div.row section div.row article h3 {
-  background-color: gray;
+main#main-index div.row section div.row article h3 {
+  background-color: #6c757d;
   color: #FBFBFB;
   margin: 0;
+  padding: 0 !important;
   text-align: center;
   height: 13%;
 }
-main div.row section div.row article img {
+main#main-index div.row section div.row article img {
   width: 100%;
   height: 87%;
-  padding: 0;
+  padding: 0 !important;
 }
-main div.row section div.row article:hover {
+main#main-index div.row section div.row article:hover {
   transform: rotateY(180deg);
   transition: transform 1s ease-in-out;
 }
-main div.row section div.row article {
-  padding: 0.2rem;
+main#main-index div.row section div.row article {
+  padding: 0.1rem;
   background-color: gainsboro;
 }
-main div.row section div.row article div {
+main#main-index div.row section div.row article div {
   height: 100%;
   margin: 0;
 }
-main div.row section div.row article h3 {
-  background-color: gray;
+main#main-index div.row section div.row article h3 {
+  background-color: #6c757d;
   color: #FBFBFB;
   margin: 0;
+  padding: 0 !important;
   text-align: center;
   height: 13%;
 }
-main div.row section div.row article img {
+main#main-index div.row section div.row article img {
   width: 100%;
   height: 87%;
-  padding: 0;
+  padding: 0 !important;
 }
-main div.row section div.row article:hover {
+main#main-index div.row section div.row article:hover {
   transform: rotateY(180deg);
   transition: transform 1s ease-in-out;
 }
-main div.row section div.row article {
-  padding: 0.2rem;
+main#main-index div.row section div.row article {
+  padding: 0.1rem;
   background-color: gainsboro;
 }
-main div.row section div.row article div {
+main#main-index div.row section div.row article div {
   height: 100%;
   margin: 0;
 }
-main div.row section div.row article h3 {
-  background-color: gray;
+main#main-index div.row section div.row article h3 {
+  background-color: #6c757d;
   color: #FBFBFB;
   margin: 0;
+  padding: 0 !important;
   text-align: center;
   height: 13%;
 }
-main div.row section div.row article img {
+main#main-index div.row section div.row article img {
   width: 100%;
   height: 87%;
-  padding: 0;
+  padding: 0 !important;
 }
-main div.row section div.row article:hover {
+main#main-index div.row section div.row article:hover {
   transform: rotateY(180deg);
   transition: transform 1s ease-in-out;
 }
-main div.row section div.row article {
-  padding: 0.2rem;
+main#main-index div.row section div.row article {
+  padding: 0.1rem;
   background-color: gainsboro;
 }
-main div.row section div.row article div {
+main#main-index div.row section div.row article div {
   height: 100%;
   margin: 0;
 }
-main div.row section div.row article h3 {
-  background-color: gray;
+main#main-index div.row section div.row article h3 {
+  background-color: #6c757d;
   color: #FBFBFB;
   margin: 0;
+  padding: 0 !important;
   text-align: center;
   height: 13%;
 }
-main div.row section div.row article img {
+main#main-index div.row section div.row article img {
   width: 100%;
   height: 87%;
-  padding: 0;
+  padding: 0 !important;
 }
-main div.row section div.row article:hover {
+main#main-index div.row section div.row article:hover {
   transform: rotateY(180deg);
   transition: transform 1s ease-in-out;
 }
-main div.row section div.row article {
-  padding: 0.2rem;
+main#main-index div.row section div.row article {
+  padding: 0.1rem;
   background-color: gainsboro;
 }
-main div.row section div.row article div {
+main#main-index div.row section div.row article div {
   height: 100%;
   margin: 0;
 }
-main div.row section div.row article h3 {
-  background-color: gray;
+main#main-index div.row section div.row article h3 {
+  background-color: #6c757d;
   color: #FBFBFB;
   margin: 0;
+  padding: 0 !important;
   text-align: center;
   height: 13%;
 }
-main div.row section div.row article img {
+main#main-index div.row section div.row article img {
   width: 100%;
   height: 87%;
-  padding: 0;
+  padding: 0 !important;
 }
-main div.row section div.row article:hover {
+main#main-index div.row section div.row article:hover {
   transform: rotateY(180deg);
   transition: transform 1s ease-in-out;
 }
-main div.row aside {
+main#main-index div.row aside {
   padding: 0;
   margin: 0;
   flex-direction: column;
 }
-main div.row aside div article {
-  padding: 0.2rem;
+main#main-index div.row aside div article {
+  padding: 0.1rem;
   background-color: gainsboro;
 }
-main div.row aside div article div {
+main#main-index div.row aside div article div {
   height: 100%;
   margin: 0;
 }
-main div.row aside div article h3 {
-  background-color: gray;
+main#main-index div.row aside div article h3 {
+  background-color: #6c757d;
   color: #FBFBFB;
   margin: 0;
+  padding: 0 !important;
   text-align: center;
   height: 13%;
 }
-main div.row aside div article img {
+main#main-index div.row aside div article img {
   width: 100%;
   height: 87%;
-  padding: 0;
+  padding: 0 !important;
 }
-main div.row aside div article:hover {
+main#main-index div.row aside div article:hover {
   transform: rotateY(180deg);
   transition: transform 1s ease-in-out;
 }
-main div.row aside div article {
+main#main-index div.row aside div article {
   height: 50%;
 }
-main div.row aside div article {
-  padding: 0.2rem;
+main#main-index div.row aside div article {
+  padding: 0.1rem;
   background-color: gainsboro;
 }
-main div.row aside div article div {
+main#main-index div.row aside div article div {
   height: 100%;
   margin: 0;
 }
-main div.row aside div article h3 {
-  background-color: gray;
+main#main-index div.row aside div article h3 {
+  background-color: #6c757d;
   color: #FBFBFB;
   margin: 0;
+  padding: 0 !important;
   text-align: center;
   height: 13%;
 }
-main div.row aside div article img {
+main#main-index div.row aside div article img {
   width: 100%;
   height: 87%;
-  padding: 0;
+  padding: 0 !important;
 }
-main div.row aside div article:hover {
+main#main-index div.row aside div article:hover {
   transform: rotateY(180deg);
   transition: transform 1s ease-in-out;
 }
-main div.row aside div article {
+main#main-index div.row aside div article {
   height: 50%;
+}
+
+main#main-paquetes {
+  margin-top: 3rem;
+  padding: 0;
+}
+main#main-paquetes h2 {
+  padding: 0;
+  margin-left: 2rem;
+}
+main#main-paquetes div.row {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+main#main-paquetes section {
+  padding: 0 !important;
+}
+main#main-paquetes section div {
+  display: flex;
+  margin: 1rem;
+}
+main#main-paquetes section div article {
+  padding: 0.1rem;
+  background-color: gainsboro;
+}
+main#main-paquetes section div article div {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+main#main-paquetes section div article h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6c757d;
+  color: #FBFBFB;
+  margin: 0;
+  padding: 0 !important;
+  text-align: center;
+  height: 18%;
+}
+main#main-paquetes section div article img {
+  width: 100%;
+  height: 82%;
+  padding: 0 !important;
+}
+main#main-paquetes section div article:hover {
+  transform: rotateY(180deg);
+  transition: transform 1s ease-in-out;
+}
+main#main-paquetes section div article {
+  padding: 0.1rem;
+  background-color: gainsboro;
+}
+main#main-paquetes section div article div {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+main#main-paquetes section div article h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6c757d;
+  color: #FBFBFB;
+  margin: 0;
+  padding: 0 !important;
+  text-align: center;
+  height: 18%;
+}
+main#main-paquetes section div article img {
+  width: 100%;
+  height: 82%;
+  padding: 0 !important;
+}
+main#main-paquetes section div article:hover {
+  transform: rotateY(180deg);
+  transition: transform 1s ease-in-out;
+}
+main#main-paquetes section div article {
+  padding: 0.1rem;
+  background-color: gainsboro;
+}
+main#main-paquetes section div article div {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+main#main-paquetes section div article h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6c757d;
+  color: #FBFBFB;
+  margin: 0;
+  padding: 0 !important;
+  text-align: center;
+  height: 18%;
+}
+main#main-paquetes section div article img {
+  width: 100%;
+  height: 82%;
+  padding: 0 !important;
+}
+main#main-paquetes section div article:hover {
+  transform: rotateY(180deg);
+  transition: transform 1s ease-in-out;
+}
+main#main-paquetes section div article {
+  padding: 0.1rem;
+  background-color: gainsboro;
+}
+main#main-paquetes section div article div {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+main#main-paquetes section div article h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6c757d;
+  color: #FBFBFB;
+  margin: 0;
+  padding: 0 !important;
+  text-align: center;
+  height: 18%;
+}
+main#main-paquetes section div article img {
+  width: 100%;
+  height: 82%;
+  padding: 0 !important;
+}
+main#main-paquetes section div article:hover {
+  transform: rotateY(180deg);
+  transition: transform 1s ease-in-out;
+}
+main#main-paquetes section div article {
+  padding: 0.1rem;
+  background-color: gainsboro;
+}
+main#main-paquetes section div article div {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+main#main-paquetes section div article h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6c757d;
+  color: #FBFBFB;
+  margin: 0;
+  padding: 0 !important;
+  text-align: center;
+  height: 18%;
+}
+main#main-paquetes section div article img {
+  width: 100%;
+  height: 82%;
+  padding: 0 !important;
+}
+main#main-paquetes section div article:hover {
+  transform: rotateY(180deg);
+  transition: transform 1s ease-in-out;
+}
+main#main-paquetes section div article {
+  padding: 0.1rem;
+  background-color: gainsboro;
+}
+main#main-paquetes section div article div {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+main#main-paquetes section div article h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6c757d;
+  color: #FBFBFB;
+  margin: 0;
+  padding: 0 !important;
+  text-align: center;
+  height: 18%;
+}
+main#main-paquetes section div article img {
+  width: 100%;
+  height: 82%;
+  padding: 0 !important;
+}
+main#main-paquetes section div article:hover {
+  transform: rotateY(180deg);
+  transition: transform 1s ease-in-out;
+}
+main#main-paquetes section div article {
+  padding: 0.1rem;
+  background-color: gainsboro;
+}
+main#main-paquetes section div article div {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+main#main-paquetes section div article h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6c757d;
+  color: #FBFBFB;
+  margin: 0;
+  padding: 0 !important;
+  text-align: center;
+  height: 18%;
+}
+main#main-paquetes section div article img {
+  width: 100%;
+  height: 82%;
+  padding: 0 !important;
+}
+main#main-paquetes section div article:hover {
+  transform: rotateY(180deg);
+  transition: transform 1s ease-in-out;
+}
+main#main-paquetes section div article {
+  padding: 0.1rem;
+  background-color: gainsboro;
+}
+main#main-paquetes section div article div {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+main#main-paquetes section div article h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6c757d;
+  color: #FBFBFB;
+  margin: 0;
+  padding: 0 !important;
+  text-align: center;
+  height: 18%;
+}
+main#main-paquetes section div article img {
+  width: 100%;
+  height: 82%;
+  padding: 0 !important;
+}
+main#main-paquetes section div article:hover {
+  transform: rotateY(180deg);
+  transition: transform 1s ease-in-out;
+}
+
+main#main-vuelos {
+  margin-top: 3rem;
+  padding: 0 !important;
+}
+main#main-vuelos h2.titulo-vuelos {
+  padding: 0;
+  margin-left: 2rem;
+}
+main#main-vuelos .row {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 1rem;
+}
+main#main-vuelos .row section {
+  border: black 1px solid !important;
+  padding: 1rem;
+}
+main#main-vuelos .row section form #ciudad_origen,
+main#main-vuelos .row section form #ciudad_destino,
+main#main-vuelos .row section form #fecha_partida,
+main#main-vuelos .row section form #fecha_regreso {
+  width: 100%;
+  border: black 1px solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+main#main-vuelos .row section form fieldset {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  border: black 1px solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: rgb(179, 221, 179);
+}
+main#main-vuelos .row section form fieldset select {
+  width: 20%;
+  border: black 1px solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+main#main-vuelos .row section form #boton_buscar {
+  width: 25%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  float: right;
+  border: #6c757d solid 1px;
+  background-color: rgb(79, 179, 79) !important;
+}
+main#main-vuelos .row aside {
+  display: none;
+  padding: 0;
+}
+main#main-vuelos .row aside div#carouselExampleDark {
+  height: 100%;
+}
+main#main-vuelos .row aside div#carouselExampleDark div button.boton-carouse {
+  background-color: white;
+}
+main#main-vuelos .row aside div#carouselExampleDark div.carousel-inner {
+  height: 100%;
+}
+main#main-vuelos .row aside div#carouselExampleDark div.carousel-inner div.carousel-item {
+  height: 100%;
+}
+main#main-vuelos .row aside div#carouselExampleDark div.carousel-inner div.carousel-item img.img-carousel {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+main#main-blog {
+  margin-top: 3rem;
+  padding: 0;
+}
+main#main-blog h2 {
+  padding: 0;
+  margin-left: 2rem;
+}
+main#main-blog section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  margin: auto;
+  padding-bottom: 0;
+}
+main#main-blog section article {
+  width: 100%;
+  border: black 1px solid;
+  padding: 0.3rem;
+  background-color: gainsboro;
+  margin-bottom: 0.5rem;
+}
+main#main-blog section article h3 {
+  padding: 0.3rem;
+  background-color: #6c757d;
+  color: #FBFBFB;
+  height: 20%;
+}
+main#main-blog section article div.img-blog {
+  display: flex;
+}
+main#main-blog section article div.img-blog img {
+  width: 100%;
+}
+main#main-blog section article div.img-blog p {
+  margin: 0;
+  padding: 0.2rem;
+}
+main#main-blog section article {
+  width: 100%;
+  border: black 1px solid;
+  padding: 0.3rem;
+  background-color: gainsboro;
+  margin-bottom: 0.5rem;
+}
+main#main-blog section article h3 {
+  padding: 0.3rem;
+  background-color: #6c757d;
+  color: #FBFBFB;
+  height: 20%;
+}
+main#main-blog section article div.img-blog {
+  display: flex;
+}
+main#main-blog section article div.img-blog img {
+  width: 100%;
+}
+main#main-blog section article div.img-blog p {
+  margin: 0;
+  padding: 0.2rem;
+}
+main#main-blog section article {
+  width: 100%;
+  border: black 1px solid;
+  padding: 0.3rem;
+  background-color: gainsboro;
+  margin-bottom: 0.5rem;
+}
+main#main-blog section article h3 {
+  padding: 0.3rem;
+  background-color: #6c757d;
+  color: #FBFBFB;
+  height: 20%;
+}
+main#main-blog section article div.img-blog {
+  display: flex;
+}
+main#main-blog section article div.img-blog img {
+  width: 100%;
+}
+main#main-blog section article div.img-blog p {
+  margin: 0;
+  padding: 0.2rem;
+}
+
+main#main-contacto {
+  margin-top: 3rem;
+  padding: 0 !important;
+}
+main#main-contacto div {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0.5rem;
+}
+main#main-contacto div section {
+  border: black 1px solid;
+  padding: 0.5rem;
+}
+main#main-contacto div section form {
+  width: 100%;
+}
+main#main-contacto div section form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0;
+}
+main#main-contacto div section form div div #nombre {
+  width: 100%;
+  border: black 1px solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+main#main-contacto div section form div div #apellido {
+  width: 100%;
+  border: black 1px solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+main#main-contacto div section form #email {
+  width: 100%;
+  border: black 1px solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+main#main-contacto div section form #telefono {
+  width: 50%;
+  border: black 1px solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+main#main-contacto div section form #consulta {
+  width: 100%;
+  border: black 1px solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+main#main-contacto div section form #boton_enviar {
+  width: 25%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  float: right;
+  border: #3e7ebe solid 1px;
+  background-color: rgb(79, 179, 79) !important;
 }
 
 footer {
@@ -391,12 +889,5 @@ footer div.row section.col-5 div #img_facebook.hover-boton:hover {
   transform: scaleY(1.2);
   transition: transform 0.5s ease;
 }
-
-/* 
- .hover-paquetes:hover {
-   transform: scaleY(1.1);
-   transition: transform 0.5s ease;
- } 
-   -webkit-text-stroke: 3px black; */
 
 /*# sourceMappingURL=styles.css.map */

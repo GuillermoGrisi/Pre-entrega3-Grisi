@@ -1,24 +1,10 @@
 @import "./utilidades/variables";
 @import "./base/reset";
-/* @import "./utilidades/extends"; */
 @import "./utilidades/mixin";
 @import "./estructura/header";
 @import "./estructura/main";
+@import "./estructura/main-paquetes";
+@import "./estructura/main-vuelos";
+@import "./estructura/main-blog";
+@import "./estructura/main-contacto";
 @import "./estructura/footer";
-
-
-
-
-
-
-  
- 
-  
- 
- 
- /* 
-  .hover-paquetes:hover {
-    transform: scaleY(1.1);
-    transition: transform 0.5s ease;
-  } 
-    -webkit-text-stroke: 3px black; */
